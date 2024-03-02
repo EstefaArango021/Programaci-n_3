@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 50px;
+    background: hwb(207 54% 11%)
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 15px;
+}
+
+input[type="button"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    background: hwb(229 46% 9%)
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+}
