@@ -16,43 +16,28 @@
     <form name="form1" id="form1">
     <table class="table table-dark table-striped">
     <tr>
-    <td colspan="2"> Parqueadero</td>
+    <td colspan="2"> Articulo</td>
     </tr>
     <tr>
-    <td> Nombre Cliente</td>
-    <td><input type="text" name="nombre" 
-    id="nombre" class="form-control"></td>
+    <td> Nombre del Aticulo:</td>
+    <td><input type="text" name="Nombre" 
+    id="Nombre" class="form-control"></td>
     </tr>
     <tr>
-    <td> Hora de ingreso</td>
-    <td><input type="text" name="horain" 
-    id="horain" class="form-control"></td>
-    </tr>
-    <tr>
-     <tr>
-    <td> Hora de salida</td>
-    <td><input type="text" name="horasa" 
-    id="Horasa" class="form-control"></td>
-    </tr>
-    <tr>
-    <tr>
-    <td> valor por hora</td>
+    <td> Valor a pagar:</td>
     <td><input type="text" name="valor1" 
     id="valor1" class="form-control"></td>
     </tr>
     <tr>
-    <td> total de horas</td>
-    <td><input type="text" name="totalhoras" 
-    id="totalhoras" readonly class="form-control"></td>
-    </tr>
-      <td> total a pagar</td>
-    <td><input type="text" name="totalpago" 
-    id=""totalpago"" readonly class="form-control"></td>
+    <tr>
+    <td> Valor neto: </td>
+    <td><input type="text" name="resultado" 
+    id="resultado" readonly class="form-control"></td>
     </tr>
     <tr>
     <td colspan="2">
     <input type="button" value="calcular"
-    class="btn btn-primary" onclick="suma()">
+    class="btn btn-primary" onclick="division()">
     <input type="reset" value="Limpiar"
     class="btn btn-warning">
     </td>

@@ -1,9 +1,8 @@
-function suma(){
+function division(){
 	
-	let horain= document.getElementById("horain").value;
-	let horasa= document.getElementById("horasa").value;
+	let valor1= document.getElementById("valor1").value;
 	
-	let total = parseFloat(horain)+ parseFloat(horasa);
+	let total = parseFloat(valor1)/ 1.19;
 	
 	document.form1.resultado.value=total;
 }
